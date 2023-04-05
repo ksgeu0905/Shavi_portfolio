@@ -407,6 +407,9 @@ a:focus {
     .footer .footer-menu p {
         font-size: 13px;
     }
+    .footer{
+        height: 350px;
+    }
 
 
 }
