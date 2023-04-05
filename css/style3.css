@@ -69,5 +69,25 @@
     box-shadow: 10px 10px 10px #999;
   }
 
+  @media screen and (max-width:500px){
+    .nav_vis{
+        visibility: hidden;
+    }
+    .navbar .navbar-brand_{
+        font-size: 25px;
+    }
+    .footer .footer-menu p {
+      font-size: 13px;
+  }
 
+  .big{
+    height: 50%;
+    margin: 20px 0px;
+  }
+  .container_{
+    display: block;
+  }
+
+
+}
   

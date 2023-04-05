@@ -1881,7 +1881,7 @@ a:focus {
     }
 
     .footer .footer-menu p {
-        font-size: 16px;
+        font-size: 13px;
         line-height: 16px;
         padding: 0 5px;
     }
@@ -1951,4 +1951,31 @@ a:focus {
       right: -4.5rem;
     }
     
+  }
+
+
+  
+
+@media screen and (max-width:500px){
+    .skills__container {
+        grid-template-columns: 1fr;
+    }
+    .certificate{
+        margin: 0px 0px;
+    } 
+    .about .about-img img{
+        width: 420px;
+    }
+    .contact__box{
+        margin: 10px 0px;
+    }
+    .contact__form{
+        width: 100%;
+    }
+    .hero-text{
+        margin-top: 15px;
+    }
+    .navbar .navbar-brand{
+        font-size: 30px;
+    }
   }

@@ -395,3 +395,18 @@ a:focus {
         padding: 0 5px;
     }
 }
+
+
+@media screen and (max-width:500px){
+    .nav_vis{
+        visibility: hidden;
+    }
+    .navbar .navbar-brand_{
+        font-size: 25px;
+    }
+    .footer .footer-menu p {
+        font-size: 13px;
+    }
+
+
+}
