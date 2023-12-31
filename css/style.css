@@ -348,12 +348,16 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgba(239, 35, 60, -0.05), rgba(255, 255, 204, .95)), url(../img/hero-bg5.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.align-items-center2{
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
 .hero .container-fluid {
     padding: 0;
 }
@@ -379,14 +383,14 @@ a:focus {
 }
 
 .hero .hero-text p {
-    color: #ffffff;
+    color: #EF233C;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .hero .hero-text h1 {
-    color: #ffffff;
+    color: #EF233C;
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -397,7 +401,7 @@ a:focus {
     display: inline-block;
     margin: 0;
     height: 35px;
-    color: #ffffff;
+    color: #EF233C;
     font-size: 35px;
     font-weight: 600;
 }
@@ -414,16 +418,16 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color: #EF233C;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
+    color: #ffffff;
+    background: #EF233C;
+    box-shadow: inset 0 0 0 50px #EF233C;
 }
 
 .hero .hero-btn .btn:hover {
-    color: #ffffff;
+    color: #EF233C;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    border-color: #ffffff;
+    box-shadow: inset 0 0 0 0 #EF233C;
+    border-color: #EF233C;
 }
 
 .hero .hero-btn .btn:first-child {
@@ -587,6 +591,7 @@ a:focus {
 }
 
 .about .about-img {
+    margin-left: 90px;
     position: relative;
     height: 100%;
 }
@@ -598,7 +603,7 @@ a:focus {
     object-fit: cover; */
     margin-top: 10px;
     justify-self: center;
-    width: 450px;
+    width: 380px;
     border-radius: .5rem;
 }
 
@@ -1335,6 +1340,21 @@ a:focus {
     width: 50%;
     overflow: hidden;
 }
+.team .team-img .street-two{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .5s;
+}
+.team .team-img:hover .street-two{
+    /* transition: opacity 1s ease-in-out; */
+    opacity: 1;
+}
+
 
 .team .team-img img {
     position: relative;
@@ -1392,7 +1412,7 @@ a:focus {
 }
 
 .team .team-item:hover .team-img img {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
 }
 
 .team .team-item:hover .team-text h2,
@@ -1698,6 +1718,20 @@ a:focus {
     position: relative;
     width: 100%;
     overflow: hidden;
+}
+.blog .blog-img .major-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .5s;
+}
+.blog .blog-img:hover .major-img{
+    /* transition: opacity 1s ease-in-out; */
+    opacity: 1;
 }
 
 .blog .blog-img img {
